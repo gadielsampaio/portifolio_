@@ -12,8 +12,11 @@
   <meta property="og:description" content="Sistemas de gestão, dashboards e integrações. Experiência em desenvolvimento web com uma base em design.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/motion.js" defer></script>
 </head>
 <body id="topo">
+  <div class="registration-marks" aria-hidden="true"><span class="registration-mark"></span><span class="registration-mark"></span><span class="registration-mark"></span><span class="registration-mark"></span></div>
+
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
     <div class="wrap header-inner">
@@ -28,9 +31,9 @@
   </header>
   <main id="conteudo" class="wrap" tabindex="-1">
     <section class="hero" aria-labelledby="apresentacao">
-      <div>
+      <div class="hero-copy">
         <p class="eyebrow">Desenvolvedor Full Stack</p>
-        <h1 id="apresentacao">Aplicações web e interfaces para sistemas de gestão.</h1>
+        <h1 id="apresentacao">Aplicações web e interfaces para <span class="accent">sistemas de gestão.</span></h1>
         <p class="hero-intro">Desenvolvo módulos de gestão, dashboards e integrações. Trabalho com JavaScript, PHP, MySQL e React, com atenção ao uso por equipes não técnicas.</p>
         <div class="hero-actions">
           <a class="button" href="#projetos">Conhecer os projetos <span aria-hidden="true">↗</span></a>
@@ -40,6 +43,7 @@
       </div>
       <figure class="portrait">
         <div class="portrait-image">
+          <svg class="portrait-crosshair" viewBox="0 0 32 32" fill="none" stroke="currentColor" aria-hidden="true"><path d="M16 0v32M0 16h32"/><circle cx="16" cy="16" r="6"/></svg>
           <img src="assets/retrato.png" alt="Retrato de Marcos Gadiel Sampaio" width="672" height="643" decoding="async">
         </div>
         <figcaption><strong>Marcos Gadiel Sampaio</strong><span class="meta">Amambai, MS · Brasil</span></figcaption>
@@ -86,7 +90,8 @@
 
     <section class="section" id="experiencia" aria-labelledby="titulo-experiencia">
       <div class="section-heading"><span class="number" aria-hidden="true">02</span><h2 id="titulo-experiencia">Experiência profissional</h2></div>
-      <div>
+      <div class="experience-list">
+        <span class="experience-trace" aria-hidden="true"></span>
         <article class="experience-row">
           <div class="experience-company"><h3>Agrogb</h3><span class="period">2023–2026</span></div>
           <div><h4>Desenvolvedor Full Stack</h4><p>Desenvolvi e mantive módulos de compras, aprovações, faturamento e estoque. Integrei fluxos aos processos existentes no Protheus e atuei no suporte e na correção de problemas do sistema em produção.</p></div>

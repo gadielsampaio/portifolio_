@@ -8,8 +8,9 @@ Site estático em português. Abra `index.html` no navegador. Não é necessári
 - `projetos/revak.html`: escopo e implementação do Revak.
 - `projetos/agrogb.html`: atuação na plataforma agrícola.
 - `projetos/telemetria.html`: painel de telemetria de frota.
-- `assets/styles.css`: estilos compartilhados e regras para celular e impressão.
-- `assets/retrato.png`: retrato original, sem alteração visual.
+- `assets/styles.css`: identidade blueprint, estilos compartilhados e regras para celular, movimento reduzido e impressão.
+- `assets/motion.js`: entradas discretas ao rolar e animação da linha da experiência; conteúdo e navegação independem do script.
+- `assets/retrato.png`: arquivo do retrato original, exibido em tamanho amplo com o fade em CSS usado na direção visual original.
 - `assets/marcos-gadiel-curriculo.pdf`: currículo fornecido, sem alteração.
 - `assets/favicon.svg`: marca simples para a aba do navegador.
 - `assets/space-grotesk-*.woff`: dois pesos da fonte já usada no portfólio original, agora carregados localmente; licença em `assets/OFL-Space-Grotesk.txt`.
